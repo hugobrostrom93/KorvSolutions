@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KorvSolutions
+build_property.RootNamespace = KorvSolutions
+build_property.ProjectDir = C:\Users\Hugo\source\repos\KorvSolutions\KorvSolutions\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Hugo\source\repos\KorvSolutions\KorvSolutions
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Boss/CreatePlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xDcmVhdGVQbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Boss/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Boss/DeletePlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xEZWxldGVQbGFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Boss/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xEZWxldGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Boss/EditPlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xFZGl0UGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Boss/ViewPlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9zc1xWaWV3UGxhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Worker/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXEFkZFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Worker/CreateBatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2VyXENyZWF0ZUJhdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hugo/source/repos/KorvSolutions/KorvSolutions/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m3xui4ka35

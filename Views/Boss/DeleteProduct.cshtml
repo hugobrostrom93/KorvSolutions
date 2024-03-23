@@ -1,0 +1,14 @@
+﻿@model KorvSolutions.Models.Product
+
+<h2>Delete Plan</h2>
+
+<div>
+    <h4>Plan @Model.Id</h4>
+    <p>Date: @Model.Name</p>
+    <p>Are you sure you want to delete this product?</p>
+    <form asp-controller="Boss" asp-action="DeleteProductConfirmed" asp-route-id="@Model.Id" method="post">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="ViewPlan" class="btn btn-secondary">Cancel</a>
+    </form>
+
+</div>

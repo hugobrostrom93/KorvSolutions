@@ -1,0 +1,32 @@
+﻿@model List<KorvSolutions.Models.Product>
+
+<form method="post" class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <a asp-area="" asp-controller="Boss" asp-action="CreateProduct" class="btn btn-success">+ Add Product</a>
+            <div class="form-group mt-4">
+                <label for="datum">Datum:</label>
+                <input type="date" id="datum" name="datum" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label>Välj produkter:</label><br>
+                @foreach (var product in Model)
+                {
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@product.Name</span>
+                        </div>
+                        <input type="number" class="form-control" id="@product.Name" name="quantities[@product.Name]" min="0" value="0">
+                        <div class="input-group-append">
+                            <a href="@Url.Action("DeleteProduct", "Boss", new { id = product.Id })" class="btn btn-danger ml-2">Delete Product</a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <button type="submit" class="btn btn-primary">Skapa plan</button>
+            <a asp-action="ViewPlan" class="btn btn-secondary">Cancel</a>
+        </div>
+    </div>
+</form>

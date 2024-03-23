@@ -1,0 +1,41 @@
+﻿@model List<KorvSolutions.Models.Plan>
+@{
+    ViewData["Title"] = "All Plans";
+}
+
+<div class="container mt-4">
+
+    <a asp-area="" asp-controller="Boss" asp-action="CreatePlan" class="btn btn-success">+ Create Plan</a>
+
+    <h2 class="mt-4">All Plans</h2>
+
+    @foreach (var plan in Model)
+    {
+        <div class="card mb-4">
+            <div class="card-body">
+                <p class="card-text">Date: @plan.Date.ToShortDateString()</p> <!-- Show only the date part -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var planProduct in plan.PlanProducts)
+                        {
+                            <tr>
+                                <td>@planProduct.Product.Name</td>
+                                <td>@planProduct.Quantity</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div>
+                    <a href="@Url.Action("EditPlan", "Boss", new { id = plan.Id })" class="btn btn-primary">Edit</a>
+                    <a href="@Url.Action("DeletePlan", "Boss", new { id = plan.Id })" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
